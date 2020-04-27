@@ -4,9 +4,9 @@
   "description": "A tool that makes it easier to manage Akamai Sandboxes. Call the Sandbox API from the command line.",
   "repository": "https://github.com/akamai/cli-sandbox",
   "scripts": {
-    "build": "npm run build-ts",
+    "build": "i am broken",
     "build-ts": "tsc",
-    "postinstall": "npm run build"
+    "postinstall": "i am broken"
   },
   "main": "./akamai-sandbox",
   "bin": {
