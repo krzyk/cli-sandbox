@@ -30,8 +30,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - env:
-        AKAMAI_CLI_CACHE_PATH: /tmp
     - run: npm install
     - run: npm run build --if-present
     - run: ./akamai-sandbox help
+      env:
+        AKAMAI_CLI_CACHE_PATH: /tmp
